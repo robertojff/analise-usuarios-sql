@@ -1,11 +1,17 @@
-/*INSERT INTO usuarios(nome,email,data_nascimento)
-VALUES
-('Weliton Rodrigues','weliton34@hotmail.com','25/07/2001'),
-('Leonardo Paes','leonardopaes12@gmail.com','21/02/1999'),
-('Ingrid Maria','ingridm11@gmail.com','31/01/2005'),
-('João Pessoa','joao-pessoa190@gmail.com','14/05/2002'),
-('Cleiton Paes','cleitonpie@gmail.com','10/02/2001'),
-('Adalberto De Jesus Ferreira','adalbertojff3333@gmail.com','24/02/1958');*/
-
+-- Consultando todos os usuários
 SELECT * FROM usuarios;
+
+-- Inserindo dados na tabela usuarios
+INSERT INTO usuarios(nome, email, data_nascimento)
+VALUES
+('Weliton Rodrigues','weliton34@hotmail.com','2001-07-25'),
+('Leonardo Paes','leonardopaes12@gmail.com','1999-02-21'),
+('Ingrid Maria','ingridm11@gmail.com','2005-01-31'),
+('João Pessoa','joao-pessoa190@gmail.com','2002-05-14'),
+('Cleiton Paes','cleitonpie@gmail.com','2001-02-10'),
+('Adalberto De Jesus Ferreira','adalbertojff3333@gmail.com','1958-02-24');
+
+-- Buscando usuário específico
+SELECT * FROM usuarios
+WHERE nome = 'Cleiton Paes';
 
