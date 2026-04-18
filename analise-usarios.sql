@@ -1,3 +1,12 @@
+-- Criando uma tabela de usuários
+CREATE TABLE usuarios(
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(50) NOT NULL,
+  email VARCHAR(50) UNIQUE NOT NULL,
+  data_nascimento DATE NOT NULL,
+  data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+); 
+
 -- Consultando todos os usuários
 SELECT * FROM usuarios;
 
@@ -14,4 +23,11 @@ VALUES
 -- Buscando usuário específico
 SELECT * FROM usuarios
 WHERE nome = 'Cleiton Paes';
+
+-- Quantidade de usuários
+SELECT COUNT(*) FROM usuarios;
+
+-- Ordenar por mais recente
+SELECT * FROM usuarios
+ORDER BY data_criacao DESC;
 
