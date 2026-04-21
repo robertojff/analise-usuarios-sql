@@ -1,6 +1,6 @@
 # 📊 Projeto SQL - Análise de Usuários
 
-Este é um projeto prático desenvolvido durante meus estudos em SQL, com foco em análise de dados e manipulação de banco de dados.
+Projeto prático desenvolvido durante meus estudos em SQL, com foco em análise de dados e manipulação de banco de dados.
 
 ---
 
@@ -20,11 +20,12 @@ Este é um projeto prático desenvolvido durante meus estudos em SQL, com foco e
 
 ## 🗂 Estrutura do projeto
 
-- `01_create_tables.sql` → criação das tabelas
-- `02_insert_dados.sql` → inserção de dados
-- `03_consultas.sql` → consultas e análises
-- `04_alter_table.sql` → alterações na estrutura
-- `05_delete.sql` → remoção de dados
+- `sql/01_create_tables.sql` → criação das tabelas  
+- `sql/02_insert_dados.sql` → inserção de dados  
+- `sql/03_consultas.sql` → consultas e análises  
+- `sql/04_alter_table.sql` → alterações na estrutura  
+- `sql/05_delete.sql` → remoção de dados  
+- `extras/01_primeiros_passos.sql` → primeiros aprendizados em SQL  
 
 ---
 
@@ -38,20 +39,25 @@ Praticar conceitos fundamentais de SQL aplicados a um cenário simples de usuár
 
 Durante esse projeto, desenvolvi conhecimentos em:
 
-- Manipulação de dados
-- Estrutura de banco de dados
-- Organização de consultas SQL
-- Boas práticas de escrita e organização de código
+- Manipulação de dados  
+- Estrutura de banco de dados  
+- Organização de consultas SQL  
+- Boas práticas de escrita e organização de código  
+
+---
+
+## 🔧 Tecnologias utilizadas
+
+- SQL (PostgreSQL)
 
 ---
 
 ## 🔗 Próximos passos
 
-- Aprender JOIN para relacionar tabelas
-- Criar análises mais avançadas
-- Integrar com ferramentas como Power BI
+- Aprender JOIN para relacionar tabelas  
+- Criar análises mais avançadas  
+- Integrar com ferramentas como Power BI  
 
 ---
 
 🚀 Projeto em constante evolução
-
