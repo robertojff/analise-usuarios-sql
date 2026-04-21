@@ -31,3 +31,41 @@ SELECT COUNT(*) FROM usuarios;
 SELECT * FROM usuarios
 ORDER BY data_criacao DESC;
 
+-- =========================
+-- EVOLUÇÃO (NOVOS APRENDIZADOS)
+-- =========================
+
+-- Criando tabela pedidos
+CREATE TABLE pedidos(
+  codigo_pedido SERIAL PRIMARY KEY,
+  usuario_id INT,
+  data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+);
+
+-- Inserindo pedidos
+INSERT INTO pedidos(usuario_id)
+VALUES (1), (2);
+
+-- Consultando pedidos
+SELECT * FROM pedidos;
+
+-- =========================
+-- ALTER TABLE
+-- =========================
+
+ALTER TABLE usuarios
+ADD COLUMN idade SMALLINT NOT NULL DEFAULT 0;
+
+ALTER TABLE usuarios
+DROP COLUMN idade;
+
+-- =========================
+-- DELETE
+-- =========================
+
+DELETE FROM usuarios
+WHERE id = 7;
+
+DELETE FROM pedidos
+WHERE codigo_pedido = 1;
