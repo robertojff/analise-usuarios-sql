@@ -1,99 +1,57 @@
-# 📊 Análise de Usuários com SQL
+# 📊 Projeto SQL - Análise de Usuários
 
-Este projeto foi desenvolvido com o objetivo de praticar comandos básicos de SQL simulando um banco de dados de usuários.
+Este é um projeto prático desenvolvido durante meus estudos em SQL, com foco em análise de dados e manipulação de banco de dados.
+
+---
+
+## 🚀 O que foi desenvolvido
+
+- Criação de tabela de usuários
+- Criação de tabela de pedidos
+- Inserção de dados (INSERT)
+- Consultas de dados (SELECT)
+- Filtros com WHERE
+- Contagem de registros (COUNT)
+- Ordenação de dados (ORDER BY)
+- Alteração de estrutura (ALTER TABLE)
+- Remoção de dados (DELETE)
+
+---
+
+## 🗂 Estrutura do projeto
+
+- `01_create_tables.sql` → criação das tabelas
+- `02_insert_dados.sql` → inserção de dados
+- `03_consultas.sql` → consultas e análises
+- `04_alter_table.sql` → alterações na estrutura
+- `05_delete.sql` → remoção de dados
 
 ---
 
 ## 🧠 Objetivo
 
-Criar uma tabela de usuários e realizar operações como:
-
-* Inserção de dados
-* Consulta de informações
-* Filtros específicos
-* Contagem de registros
-* Ordenação de dados
+Praticar conceitos fundamentais de SQL aplicados a um cenário simples de usuários e pedidos, simulando situações reais de análise de dados.
 
 ---
 
-## 🗂️ Estrutura da Tabela
+## 💡 Aprendizados
 
-A tabela `usuarios` contém as seguintes colunas:
+Durante esse projeto, desenvolvi conhecimentos em:
 
-* `id` → Identificador único do usuário
-* `nome` → Nome do usuário
-* `email` → Email único
-* `data_nascimento` → Data de nascimento
-* `data_criacao` → Data de criação do registro (automática)
-
----
-
-## ⚙️ Tecnologias utilizadas
-
-* SQL
-* PostgreSQL
+- Manipulação de dados
+- Estrutura de banco de dados
+- Organização de consultas SQL
+- Boas práticas de escrita e organização de código
 
 ---
 
-## 📌 Principais comandos utilizados
+## 🔗 Próximos passos
 
-### Inserção de dados
-
-```sql
-INSERT INTO usuarios(nome, email, data_nascimento)
-VALUES (...);
-```
-
-### Consulta geral
-
-```sql
-SELECT * FROM usuarios;
-```
-
-### Filtro específico
-
-```sql
-SELECT * FROM usuarios
-WHERE nome = 'Cleiton Paes';
-```
-
-### Contagem de registros
-
-```sql
-SELECT COUNT(*) FROM usuarios;
-```
-
-### Ordenação
-
-```sql
-SELECT * FROM usuarios
-ORDER BY data_criacao DESC;
-```
+- Aprender JOIN para relacionar tabelas
+- Criar análises mais avançadas
+- Integrar com ferramentas como Power BI
 
 ---
 
-## 🚀 Aprendizados
-
-Com este projeto foi possível aprender:
-
-* Criação de tabelas com `CREATE TABLE`
-* Inserção de dados com `INSERT`
-* Consultas com `SELECT`
-* Filtros com `WHERE`
-* Funções de agregação como `COUNT`
-* Ordenação com `ORDER BY`
-
----
-
-## 📈 Próximos passos
-
-* Aprender `GROUP BY`
-* Trabalhar com `JOIN`
-* Criar dashboards com Power BI
-
----
-
-## 👨‍💻 Autor
-
-Roberto Ferreira
+🚀 Projeto em constante evolução
 
