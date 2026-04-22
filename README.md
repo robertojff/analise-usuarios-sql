@@ -46,6 +46,22 @@ Durante esse projeto, desenvolvi conhecimentos em:
 
 ---
 
+## 📊 Análises realizadas
+
+Neste projeto, foram desenvolvidas consultas SQL para responder perguntas de negócio, como:
+
+- Quantos pedidos cada usuário realizou  
+- Qual usuário possui maior número de pedidos  
+- Quantidade total de pedidos no sistema  
+- Quantos usuários realizaram pedidos  
+- Relação entre usuários e pedidos utilizando JOIN  
+
+Essas análises foram feitas utilizando conceitos como:
+- JOIN (junção de tabelas)  
+- GROUP BY (agrupamento de dados)  
+- COUNT (contagem de registros)  
+- ORDER BY (ordenação dos resultados)  
+
 ## 🔧 Tecnologias utilizadas
 
 - SQL (PostgreSQL)
